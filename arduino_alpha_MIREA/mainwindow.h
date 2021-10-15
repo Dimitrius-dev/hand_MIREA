@@ -23,6 +23,8 @@ public:
 private slots:
     void on_pushRead_clicked();
     void slotTimerAlarm();
+    void on_pushStop_clicked();
+
 private:
     Ui::MainWindow *ui;
 
